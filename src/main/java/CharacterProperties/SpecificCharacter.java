@@ -29,7 +29,7 @@ public class SpecificCharacter extends Character implements CharacterProperties 
         private float increaseKoef;
         private SpecificCharacter specificCharacter;
 
-        void increseStats(String name){
+        void increseStats(String name){ // find selected character in DB and update his properties
             if (!name.isEmpty()){
 
 //                specificCharacter.health =
